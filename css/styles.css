@@ -48,6 +48,10 @@ nav ul li a {
   color: black;
 }
 
+nav ul li a:hover {
+  color: #842;
+}
+
 .caption {
   margin: 20px 0;
   color: white;
@@ -103,13 +107,13 @@ main section:last-child p {
 @media screen and (min-width: 600px) {
   body {
     margin: 0;
-    background: white;
+    background: #999;
   }
   header {
     position: absolute;
     top: 50px;
     left: 50px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.5);
   }
   nav {
     background: none;
@@ -162,16 +166,28 @@ main section:last-child p {
   main section:nth-child(2) {
     display: inline-block;
     float: left;
-    padding: 3%;
     width: 50%;
-    background: #051e00;
+    background: #242D3A;
     transition: background-color 1s;
     height: 100%;
+    padding: 3%;
   }
   main section:nth-child(2):hover {
     background-color: black;
     transition: background-color 1s;
   }
+
+  main section:nth-child(2) a {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
   main section:nth-child(2) a,
   main section:last-child p {
     position: relative;
@@ -188,6 +204,7 @@ main section:last-child p {
     padding: 3%;
     height: 100%;
     background: black;
+    text-align: center;
   }
   main section:last-child p {
     margin: 0;
