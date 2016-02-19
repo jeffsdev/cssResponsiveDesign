@@ -194,3 +194,40 @@ main section:last-child p {
     padding: 0;
   }
 }
+
+@media screen and (min-width: 900px){
+  body {
+    margin: 0;
+  }
+  .primary {
+    width: 70%;
+    height: 100vh;
+    margin: 0;
+    display: block;
+    float: left;
+    margin-bottom: 0;
+  }
+  main section:nth-child(2),
+  main section:last-child {
+    margin: 0;
+    height: 49.25vh;
+    width: 100%;
+    padding: 3% 10%;
+  }
+  main section:nth-child(2) {
+    margin-bottom: 1.5vh;
+  }
+  main {
+    width: 29%; /*leaves white margin to the left of main*/
+    height: 100vh;
+    display: block;
+    float: right;
+  }
+
+  .imageDiv img {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
