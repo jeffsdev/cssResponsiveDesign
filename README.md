@@ -1,10 +1,13 @@
 # CSS Responsive Design
-#### Week 2 - CSS code review for Epicodus  
+#### Week 2 - CSS code review for Epicodus
+##### Feb. 2016
 ##### By Jeff Seymour
 
 ## Description
 ###### This is a small web site for the 2st week code review for the CSS course at Epicodus.  
-Create a responsive webpage that is similar to Andersson-Wise.  
+
+## Objectives
+Create a responsive webpage that is similar to the Andersson-Wise website.  
 
 It must be fluid and have breakpoints at three different screen sizes.  
 
